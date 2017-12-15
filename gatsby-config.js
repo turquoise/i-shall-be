@@ -29,7 +29,6 @@ module.exports = {
     `gatsby-plugin-glamor`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-json`,
-    `gatsby-plugin-twitter`,
     // {
     //   resolve: `gatsby-source-twitter`,
     //   options: {
