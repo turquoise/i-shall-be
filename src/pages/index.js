@@ -19,15 +19,15 @@ const style = {
     marginTop: '2px',
     textAlign: 'center',
     display: 'inline-block',
-    backgroundColor: '#e5d7b2',
+    backgroundColor: 'white',
   },
   category: {
     width: '100%',
     marginTop: '2px',
     textAlign: 'left',
     display: 'inline-block',
-    backgroundColor: 'black',
-    color: '#aa8956',
+    backgroundColor: '#475b75',
+    color: 'white',
   },
   categorydiv: {
     marginTop: '10px',
@@ -83,7 +83,6 @@ class IndexPage extends React.Component {
     const tagsEdges = this.props.data.tags.edges;
 
     
-    
     if (this.state.category === 'all') {
       return <IndexList postEdges={postEdges} />
     } else if (this.state.category === 'scripts' ) {
@@ -117,7 +116,7 @@ class IndexPage extends React.Component {
           </Col>
           <Col xs={2} sm={2} md={2} lg={2}>
           <Paper style={style.category} zDepth={1}>
-          <h3 className="myheading" style={style.categorydiv}>Categories:</h3>
+          <h4 className="myheading" style={style.categorydiv}>Categories:</h4>
           <div style={style.categorydiv}>
             <h5 onClick={ () => this.setState({ category: 'all', tag: ''}) }>All</h5>
             <h5 onClick={ () => this.setState({ category: 'scripts', tag: ''}) }>Scripts</h5>
