@@ -106,7 +106,7 @@ class Contact extends React.Component {
     return (
       <MuiThemeProvider muiTheme={muiTheme}>
       <Container>
-      <Paper style={style} zDepth={1}>
+      <Paper style={style} zDepth={4}>
       <Grid>
         <Row>
         <Col>

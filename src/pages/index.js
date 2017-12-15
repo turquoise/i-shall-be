@@ -115,7 +115,7 @@ class IndexPage extends React.Component {
 
           </Col>
           <Col xs={2} sm={2} md={2} lg={2}>
-          <Paper style={style.category} zDepth={1}>
+          <Paper style={style.category} zDepth={4}>
           <h4 className="myheading" style={style.categorydiv}>Categories:</h4>
           <div style={style.categorydiv}>
             <h5 onClick={ () => this.setState({ category: 'all', tag: ''}) }>All</h5>

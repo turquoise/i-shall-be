@@ -48,7 +48,7 @@ const User = props =>
 
 const SecondPage = () => (
   <Container>
-    <Paper style={style} zDepth={1}>
+    <Paper style={style} zDepth={4}>
     <h1 className="myheading" style={style.container} >Film Cast</h1>
     <div style={style.container}>
     <User
